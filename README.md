@@ -9,6 +9,8 @@
 
 ```git clone https://github.com/ros-perception/vision_opencv.git
 cd /usr/lib/x86_64-linux-gnu/
-sudo ln -s libboost_python-py34.so libboost_python3.so
+sudo ln -s libboost_python-py35.so libboost_python3.so
 export BOOST_ROOT=/usr/include/boost
 ```
+3. compile
+```catkin_make install```
