@@ -9,7 +9,6 @@ class Net():
     def __init__(self):
         cur_dir = os.getcwd()
         os.chdir(DF_PATH)
-        # print(os.getcwd())
         options = {"model": "cfg/yolo-buoy.cfg", "load": 11000, "threshold": 0.3, "gpu":1.0}
         self.tfnet = TFNet(options)
 
